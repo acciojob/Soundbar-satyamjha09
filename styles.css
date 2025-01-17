@@ -1,27 +1,25 @@
- /* Example basic styling */
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 20px;
-    }
-    #buttons {
-      display: inline-block;
-      margin-top: 20px;
-    }
-    .btn, .stop {
-      display: inline-block;
-      margin: 5px;
-      padding: 10px 15px;
-      font-size: 1rem;
-      cursor: pointer;
-      border: none;
-      border-radius: 5px;
-    }
-    .btn {
-      background-color: #4caf50; /* green button */
-      color: white;
-    }
-    .stop {
-      background-color: #f44336; /* red button */
-      color: white;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background: #A164DF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* This targets all buttons inside #buttons */
+#buttons button {
+  background-color: #663399;
+  color: white;
+  padding: 10px 8px;
+  outline: none;
+  border: none;
+  font-size: 8px;
+  cursor: pointer;
+}
