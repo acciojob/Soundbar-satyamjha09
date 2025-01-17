@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+/*  your css code here. If applicable */  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    #buttons {
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .btn, .stop {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+    .btn {
+      background-color: #4caf50; /* green button */
+      color: white;
+    }
+    .stop {
+      background-color: #f44336; /* red button */
+      color: white;
+    }
