@@ -1,25 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-html, body {
-  width: 100vw;
-  height: 100vh;
-  background: #A164DF;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+#buttons {
+    display: flex;
+    gap: 15px;
 }
 
-/* This targets all buttons inside #buttons */
-#buttons button {
-  background-color: #663399;
-  color: white;
-  padding: 10px 8px;
-  outline: none;
-  border: none;
-  font-size: 8px;
-  cursor: pointer;
+.btn, .stop {
+    background-color: #5d2681;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
 }
+
+.btn:hover, .stop:hover {
+    background-color: #4a1e68;
+}
+
